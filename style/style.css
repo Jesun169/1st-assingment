@@ -1,3 +1,6 @@
+.page-bg-color{
+  background-color: #F5F8FF;
+}
 /* header styles */
 .inter-normal{
   font-size: 34px;
@@ -17,7 +20,9 @@
   
 }
 
+
 .button-primary{
+  
   background-color: #4E47FF;
   color: #FFFFFF;
   font-weight: bold;
@@ -26,7 +31,9 @@
   height: 24px; */
   padding: 12px 36px;
   border-radius: 10px;
+ 
 }
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -67,6 +74,7 @@ nav{
   padding: 126px;
 
 }
+
 .action-title{
   font-size: 42px;
   font-weight: bold;
@@ -77,17 +85,100 @@ nav{
 .mini-img{
   border-radius: 50px;
 }
+/* Productive-user */
+.font-color-blue{
+  color: rgba(78, 71, 255, 1);
+}
+.Productive-user{
+  display: flex;
+  text-align: center;
+}
+.user-banner {
+  /* display: flex; */
+  font-size: 45px;
+  background-color: rgb(232, 227, 252);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+  margin: 200px;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.user{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  
+}
+/* .Productive-user{
+  padding-left: 330px;
+  text-align: center;
+  gap: 15px;
+} */
 .ready-title{
+
   font-size: 50px;
   font-weight: bold;
 }
 .ready{
   text-align: center;
 }
+.ready-background{
+  padding: 1%;
+  background-color: #FFFFFF;
+  margin: 71px 150px;
+  border-radius: 20px;
+}
 .big-img{
  
   border-radius: 50px;
 }
 .font-2{
-  color: #000000;
+  font-size: 22px;
+  color:rgba(37, 36, 50, 0.5);
 }
+.footer-1{
+  padding: 100px 100px;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.form-column{
+  width: 50%;
+display: block;
+}
+
+form input[type="text"], form input[type="email"], form textarea, button[type="submit"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  
+}
+.footer-content {
+  background-color: #FFFFFF;
+text-align: center;
+width: auto;
+height: 220px;
+}
+.footer-link a{
+
+text-decoration: none;
+gap: 20px;
+ color:rgba(37, 36, 50, 0.5);
+}
+.last-logo{
+  font-size: 75px;
+
+}
+/* .footer-frame{
+  text-align: center;
+  width: 531px;
+  height: 221px;
+} */
