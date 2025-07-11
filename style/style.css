@@ -20,18 +20,17 @@
   
 }
 
-
-.button-primary{
+.button-primary {
   
   background-color: #4E47FF;
-  color: #FFFFFF;
+   color: #FFFFFF;
   font-weight: bold;
   font-size: 16px;
   /* width: 60px;
   height: 24px; */
-  padding: 12px 36px;
+  padding: 18px 36px;
   border-radius: 10px;
- 
+
 }
 
 nav{
@@ -67,11 +66,45 @@ nav{
    padding: 2rem;
    max-width: 1200px;
 }
+/* card section */
+.reviewer-img{
+  
+  border-radius: 50%;
+  width: 90px;
+
+  
+}
+.reviewer-avater{
+  display: flex;
+  gap: 2%;
+}
+.card{
+
+width: 470px;
+border: 2px solid #F2EDED;
+border-radius: 10px;
+padding: 10px;
+
+}
+.card-selection{
+  display: flex;
+ justify-content: center;
+ gap: 5px;
+}
+.icon {
+  font-size: 40px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+.fa-solid{
+  color: darkorange;
+}
 /* action section styles */
 .action{
+  
   display: flex;
   justify-content: space-between;
-  padding: 126px;
+  padding: 200px;
 
 }
 
@@ -125,9 +158,10 @@ nav{
   text-align: center;
 }
 .ready-background{
-  padding: 1%;
+
+  padding: 100px;
   background-color: #FFFFFF;
-  margin: 71px 150px;
+  margin: 71px 200px;
   border-radius: 20px;
 }
 .big-img{
@@ -139,11 +173,16 @@ nav{
   color:rgba(37, 36, 50, 0.5);
 }
 .footer-1{
+  margin: 150px;
   padding: 100px 100px;
   font-size: 50px;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+}
+.lets-get{
+  font-size: larger;
+  padding-top: 100px;
 }
 .form-column{
   width: 50%;
@@ -161,6 +200,10 @@ form input[type="text"], form input[type="email"], form textarea, button[type="s
   border: none;
   
 }
+/* .get-btn{
+  padding-right: 585px;
+  text-align: center;
+} */
 .footer-content {
   background-color: #FFFFFF;
 text-align: center;
@@ -168,9 +211,9 @@ width: auto;
 height: 220px;
 }
 .footer-link a{
-
+gap: 50px;
 text-decoration: none;
-gap: 20px;
+
  color:rgba(37, 36, 50, 0.5);
 }
 .last-logo{
