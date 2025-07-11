@@ -1,3 +1,6 @@
+.nav{
+ pa
+}
 .page-bg-color{
   background-color: #F5F8FF;
 }
@@ -32,18 +35,21 @@
   border-radius: 10px;
 
 }
+.button-primary:hover{
+  background-color: rgb(240, 134, 92);
+}
 
 nav{
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 50px 50px;
+  padding: 80px 130px;
 }
 .header-secondary-background{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
   /* background-size: cover; */
   background-position: center;
-  height: 1440px;
+  height: 740px;
   weight: 100px;
   text-align: center;
 }
@@ -78,8 +84,13 @@ nav{
   display: flex;
   gap: 2%;
 }
+.card-heading{
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
 .card{
-
+background-color: #FFFFFF;
 width: 470px;
 border: 2px solid #F2EDED;
 border-radius: 10px;
@@ -87,6 +98,7 @@ padding: 10px;
 
 }
 .card-selection{
+  
   display: flex;
  justify-content: center;
  gap: 5px;
@@ -129,7 +141,7 @@ padding: 10px;
 .user-banner {
   /* display: flex; */
   font-size: 45px;
-  background-color: rgb(232, 227, 252);
+  background-color: rgb(220, 220, 245);
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: 20px;
@@ -141,7 +153,7 @@ padding: 10px;
 .user{
   display: flex;
   justify-content: center;
-  gap: 2%;
+  gap: 5%;
   
 }
 /* .Productive-user{
@@ -209,15 +221,19 @@ form input[type="text"], form input[type="email"], form textarea, button[type="s
 text-align: center;
 width: auto;
 height: 220px;
+padding-top: 10px;
+padding-bottom: 200px;
 }
+
 .footer-link a{
-gap: 50px;
+gap: 500px;
 text-decoration: none;
+
 
  color:rgba(37, 36, 50, 0.5);
 }
 .last-logo{
-  font-size: 75px;
+  font-size: 100px;
 
 }
 /* .footer-frame{
